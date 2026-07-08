@@ -1,0 +1,6 @@
+{
+  "name": "CalorieSnap",
+  "description": "An elegant, AI-powered nutrition assistant that estimates calories and macro/micronutrients instantly from a single food photo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
