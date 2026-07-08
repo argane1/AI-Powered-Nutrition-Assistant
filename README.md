@@ -1,21 +1,59 @@
+# CalorieSnap - AI-Powered Nutrition Assistant
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <img src="assets/1.png" alt="CalorieSnap App Screenshot" width="300"/>
 </div>
 
-# Run and deploy your AI Studio app
+An elegant, AI-powered nutrition assistant that estimates calories and macro/micronutrients instantly from a single food photo.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/29967905-9088-4300-93c8-85950443f46b
+- 📸 **Photo-Based Analysis** - Snap a picture of your meal to get instant calorie estimates
+- 🥗 **Macro & Micronutrient Breakdown** - Get detailed nutritional information in seconds
+- 🤖 **AI-Powered** - Advanced AI technology for accurate food recognition and analysis
+- ⚡ **Lightning Fast** - Instant results from a single photo
 
-## Run Locally
+## Prerequisites
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- [Android Studio](https://developer.android.com/studio)
 
+## Setup & Run Locally
 
 1. Open Android Studio
 2. Select **Open** and choose the directory containing this project
 3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
+4. Create a file named `.env` in the project directory and configure it with your API key (see `.env.example` for an example)
 5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
 6. Run the app on an emulator or physical device
+
+## Project Structure
+
+```
+foodcalory/
+├── README.md              # This file
+├── build.gradle.kts       # Root build configuration
+├── settings.gradle.kts    # Settings configuration
+├── .env.example           # Example environment variables
+├── app/                   # Android application source code
+│   ├── build.gradle.kts  # App module build config
+│   └── src/              # Application source files
+│       └── main/         # Main application code
+└── assets/               # Asset images and resources
+    ├── 1.png             # Screenshot 1
+    ├── 2.png             # Screenshot 2
+    ├── 3.png             # Screenshot 3
+    └── 4.png             # Screenshot 4
+```
+
+## Screenshots
+
+| Screenshot | Description |
+|------------|-------------|
+| assets/1.png | First view of the app |
+| assets/2.png | Second view of the app |
+| assets/3.png | Third view of the app |
+| assets/4.png | Fourth view of the app |
+
+## License
+
+This project is proprietary software. All rights reserved.
