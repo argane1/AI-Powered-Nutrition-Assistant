@@ -45,14 +45,9 @@ foodcalory/
     └── 4.png             # Screenshot 4
 ```
 
-## Screenshots
 
-| Screenshot | Description |
-|------------|-------------|
-| assets/1.png | First view of the app |
-| assets/2.png | Second view of the app |
-| assets/3.png | Third view of the app |
-| assets/4.png | Fourth view of the app |
+
+
 
 ## License
 
