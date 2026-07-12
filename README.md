@@ -38,11 +38,7 @@ foodcalory/
 │   ├── build.gradle.kts  # App module build config
 │   └── src/              # Application source files
 │       └── main/         # Main application code
-└── assets/               # Asset images and resources
-    ├── 1.png             # Screenshot 1
-    ├── 2.png             # Screenshot 2
-    ├── 3.png             # Screenshot 3
-    └── 4.png             # Screenshot 4
+└──         
 ```
 
 
